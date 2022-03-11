@@ -1,0 +1,51 @@
+.users_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(107, 110, 110);
+    color: white;
+    margin: 5px;
+    width: 300px;
+    height: 100px;
+    border-radius: 5%;
+}
+
+.user_picture {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.user_info {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.user p {
+    margin: 0;
+}
+
+.btn {
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+    border: none;
+    background-color: rgb(96, 204, 74);
+}
